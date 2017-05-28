@@ -1,0 +1,225 @@
+p, h1 {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-nav {
+	font-family: 'Signika Negative', sans-serif;
+	margin: 35px 100px 0;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color: #16a085;
+}
+
+.logo img {
+	margin: 15px 0 0 100px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 768px) {
+	.logo img {
+		margin: 10px 0 0 15px;
+	}
+
+	.navbar-nav {
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+	.navbar-toggle {
+		margin-top: 45px;
+	}
+
+	#design {
+		text-align: center;
+	}
+
+	#community .image {
+		padding-bottom: 15px;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#footer img {
+		margin: 0 auto;
+	}
+}
+
+
+/* SLIDER */
+
+#slider {
+	background: url('../images/bg.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.item {
+	color: #fff;
+	padding: 200px 0;
+}
+
+.item h1 {
+	font-size: 3em;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	margin: 5px;
+}
+
+.carousel-indicators .active {
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	margin: 5px;
+}
+
+.btn-success {
+	background-color: #16a085;
+	border: #16a085;
+	font-size: 0.8em;
+	padding: 10px 20px 10px 20px;
+	margin: 15px 0;
+}
+
+.btn-success:hover {
+	background-color: #000;
+}
+
+.btn-success:focus, .btn-success:active:focus {
+	background-color: #16a085;
+}
+
+
+/* PHOTO */
+
+#photo {
+	background-color: #f5f6f7;
+	padding: 80px 0 80px 0;
+	text-align: center;
+}
+
+#photo h1 {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #16a085;
+}
+
+#photo .fa{
+	color: #16a085;
+}
+
+#photo .fa:hover {
+	color: #0e6655;
+}
+
+
+
+/* DESIGN */
+
+#design {
+	padding: 80px 0 80px;
+}
+
+#design h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #16a085;
+	padding-top: 80px;
+}
+
+
+/* COMMUNITY */
+
+#community {
+	background-color: #f5f6f7;
+	padding: 80px 0 80px;
+}
+
+#community h1{
+	font-size: 1.5em;
+	font-weight: 700px;
+	color: #16a085;
+}
+
+#community .green{
+	padding-top: 30px;
+}
+
+
+/* SIGNUP */
+
+#signup {
+	background: url('../images/bg-signup.jpg');
+	width: 100%;
+	background-size: cover;
+	padding: 300px 0 300px;
+}
+
+#signup h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+
+#signup .me {
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+
+/* DOWNLOAD */
+
+#download {
+	background-color: #f5f6f7;
+	padding: 80px 0 80px;
+	text-align: center;
+}
+
+#download h1 {
+	font-size: 1.5em;
+	font-weight: 700px;
+	color: #16a085;
+}
+
+#download img {
+	margin-top: 15px;
+}
+
+
+/* FOOTER */
+
+
+#footer {
+	padding: 50px 0 50px;
+}
+
+#footer p {
+	font-weight: 700px;
+}
+
+#footer a {
+	color: #000;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #16a085;
+}
